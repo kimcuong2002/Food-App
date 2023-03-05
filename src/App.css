@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --pink-color: rgb(225 29 72);
+  --yellow-color: #facc15;
+  --yellow-light: #fef08a;
+  --white-color: #fff;
+  --gray-color: gray;
+  --red-light: rgb(248 113 113);
+  --tw-gradient-from: #c084fc;
+  --tw-gradient-to: #db2777;
+}
+.app {
+  display: flex;
+  margin-top: 20px;
+}
+.nav-bar {
+  width: 10%;
+}

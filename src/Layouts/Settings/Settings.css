@@ -1,0 +1,33 @@
+.setting-container {
+  display: flex;
+  width: 90%;
+}
+.setting-actions {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.account-setting {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.setting-small-title {
+  font-size: 20px;
+  margin-bottom: 50px;
+  color: var(--gray-color);
+}
+.button-setting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.button-setting Button {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  width: 100%;
+  padding: 20px 100px;
+}

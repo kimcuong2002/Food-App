@@ -1,0 +1,119 @@
+.contactus-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  animation-name: animateleft;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.dfstore-title {
+  font-size: 96px;
+  font-weight: 800;
+}
+.dfstore-feedback {
+  display: flex;
+  padding: 20px;
+}
+.contactus-feedback {
+  width: 50%;
+  padding: 20px;
+}
+.contactus-title {
+  font-size: 36px;
+  font: sans-serif;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.contactus-des {
+  font-size: 20px;
+  color: var(--tw-gradient-to);
+  margin-bottom: 20px;
+  width: 80%;
+  text-align: justify;
+  line-height: 25px;
+}
+.feedback_yourname {
+  margin-bottom: 30px;
+}
+.feedback_yourname label {
+  display: block;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.feedback_yourname input {
+  padding: 14px;
+  border-radius: 10px;
+  width: 50%;
+  outline: none;
+  border: 0.5px solid var(--tw-gradient-to);
+  font-size: large;
+}
+.feedback_youremail {
+  margin-bottom: 50px;
+}
+.feedback_youremail label {
+  display: block;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.feedback_youremail input {
+  padding: 14px;
+  border-radius: 10px;
+  width: 50%;
+  outline: none;
+  border: 0.5px solid var(--tw-gradient-to);
+  font-size: large;
+}
+.feedback_yourmessage {
+  margin-bottom: 50px;
+}
+.feedback_yourmessage label {
+  display: block;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.feedback_yourmessage textarea {
+  padding: 14px;
+  border-radius: 10px;
+  width: 50%;
+  height: 100px;
+  outline: none;
+  border: 0.5px solid var(--tw-gradient-to);
+  font-size: large;
+  resize: vertical;
+}
+.sendyourmessage {
+  padding: 20px 40px;
+  background-color: var(--tw-gradient-to);
+  color: white;
+  outline: none;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}
+.adress {
+  display: flex;
+  font-size: 25px;
+  margin: 20px;
+  color: var(--gray-color);
+}
+.adress p {
+  padding-left: 20px;
+}
+.text-err {
+  color: var(--pink-color);
+  display: block;
+  padding-top: 5px;
+}
+@keyframes animateleft {
+  from {
+    left: -100%;
+    opacity: 0;
+  }
+  to {
+    right: 100%;
+    opacity: 1;
+  }
+}
