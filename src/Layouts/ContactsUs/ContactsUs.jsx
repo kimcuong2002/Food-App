@@ -53,7 +53,7 @@ const ContactsUs = ({ onSubmit }) => {
                   pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                 })}
               />
-              {errors.name && (
+              {errors.email && (
                 <span className="text-err">Email is required</span>
               )}
             </div>
@@ -65,7 +65,7 @@ const ContactsUs = ({ onSubmit }) => {
                 name="message"
                 {...register("message", { required: true })}
               />
-              {errors.name && (
+              {errors.message && (
                 <span className="text-err">Message is required</span>
               )}
             </div>

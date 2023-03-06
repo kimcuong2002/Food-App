@@ -1,21 +1,28 @@
 .login-container {
   width: 90%;
+  height: 98vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.bannerlogin {
+  width: 70%;
 }
 .login-box {
   display: flex;
   width: 80%;
 }
 .bannerlogin {
-  width: 70%;
+  width: 50%;
 }
-
 .login-form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
+  width: 25%;
+  margin: 15px 20px;
 }
 .login-form-logo {
   width: 46px;
@@ -27,7 +34,66 @@
   font-weight: bold;
   padding-bottom: 30px;
 }
+.login-form-actions {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
 .login-form-actions input {
-  margin: 10px 20px;
-  padding: 8px 12px;
+  margin: 15px 0px;
+  padding: 13px 10px;
+  border-radius: 10px;
+  outline: none;
+  border-color: var(--pink-color);
+}
+.remember-forgotpassword {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 50%;
+}
+.forgotpassword {
+  color: var(--pink-color);
+}
+.sign-in-btn {
+  display: flex;
+  background-color: var(--tw-gradient-to);
+  margin: 15px 0px;
+  padding: 13px 17px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  color: white;
+}
+.sign-in-btn div {
+  text-align: center;
+  padding-left: 40%;
+}
+.doyouhaveanaccount {
+  color: var(--gray-color);
+  margin-bottom: 10px;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .bannerlogin {
+    display: none;
+  }
+  .login-container {
+    background-image: url(../../Assets/bannerlogin1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
 }

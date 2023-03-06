@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: 80%;
   animation-name: animateleft;
   animation-duration: 1s;
   animation-fill-mode: forwards;
@@ -13,6 +13,7 @@
   font-weight: 800;
 }
 .dfstore-feedback {
+  width: 75%;
   display: flex;
   padding: 20px;
 }
@@ -36,48 +37,54 @@
 }
 .feedback_yourname {
   margin-bottom: 30px;
+  height: 100px;
 }
 .feedback_yourname label {
   display: block;
   font-size: 20px;
   padding-bottom: 10px;
+  color: var(--gray-color);
 }
 .feedback_yourname input {
   padding: 14px;
   border-radius: 10px;
-  width: 50%;
+  width: 75%;
   outline: none;
   border: 0.5px solid var(--tw-gradient-to);
   font-size: large;
 }
 .feedback_youremail {
   margin-bottom: 50px;
+  height: 100px;
 }
 .feedback_youremail label {
   display: block;
   font-size: 20px;
   padding-bottom: 10px;
+  color: var(--gray-color);
 }
 .feedback_youremail input {
   padding: 14px;
   border-radius: 10px;
-  width: 50%;
+  width: 75%;
   outline: none;
   border: 0.5px solid var(--tw-gradient-to);
   font-size: large;
 }
 .feedback_yourmessage {
   margin-bottom: 50px;
+  height: 200px;
 }
 .feedback_yourmessage label {
   display: block;
   font-size: 20px;
   padding-bottom: 10px;
+  color: var(--gray-color);
 }
 .feedback_yourmessage textarea {
   padding: 14px;
   border-radius: 10px;
-  width: 50%;
+  width: 75%;
   height: 100px;
   outline: none;
   border: 0.5px solid var(--tw-gradient-to);

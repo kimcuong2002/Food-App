@@ -6,7 +6,6 @@ import OderMenu from "../../Components/OrderMenu/OderMenu";
 import { useState } from "react";
 import { productModel, productDetailData } from "../HomePage/data";
 import { BiSearchAlt2 } from "react-icons/bi";
-import { AiOutlineArrowDown } from "react-icons/ai";
 import Modal from "../../Components/Modal/Modal";
 
 const HomePage = () => {
@@ -28,6 +27,9 @@ const HomePage = () => {
   };
   const handlePurchase = () => {
     setAddproduct([]);
+  };
+  const selectProduct = () => {
+    productModel.filter = () => {};
   };
 
   return (

@@ -19,3 +19,8 @@
 .nav-bar {
   width: 10%;
 }
+@media (max-width: 768px) {
+  .app .login-container {
+    margin-top: 0px;
+  }
+}
