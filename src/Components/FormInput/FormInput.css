@@ -1,0 +1,15 @@
+.forminput {
+  font-size: 16px;
+  color: var(--gray-blur);
+  margin: 30px 0;
+}
+.forminput label {
+  display: block;
+  margin-bottom: 10px;
+}
+.forminput input {
+  padding: 10px 130px 10px 3px;
+  border-radius: 10px;
+  outline: none;
+  border: 0.5px solid var(--gray-blur);
+}

@@ -3,9 +3,10 @@ import "./App.css";
 import HomePage from "../src/Layouts/HomePage/HomePage.jsx";
 import ContactsUs from "../src/Layouts/ContactsUs/ContactsUs.jsx";
 import Settings from "./Layouts/Settings/Settings.jsx";
-import Login from "./Layouts/Login/Login";
+import Register from "./Layouts/RegisterPage/RegisterPage.jsx";
 import logo from "./Assets/logo.png";
 import Button from "./Components/Button/Button.jsx";
+import Login from "./Layouts/Login/Login.jsx";
 import { Routes, Route, Link } from "react-router-dom";
 import { AiOutlineContacts, AiOutlineSetting } from "react-icons/ai";
 import { BiStoreAlt, BiLogIn } from "react-icons/bi";
@@ -60,7 +61,8 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/contactus" element={<ContactsUs />} />
         <Route path="/settings" element={<Settings />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </div>
   );

@@ -1,12 +1,28 @@
-.setting-container {
-  display: flex;
-  width: 90%;
+.general-infor {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--gray-blur);
+  margin-bottom: 5px;
 }
-.setting-actions {
+.general-infor-title {
+  font-size: 16px;
+  color: var(--gray-blur);
+  margin-bottom: 10px;
+}
+.change-avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.setting-container {
+  width: 90%;
+  margin-left: 50px;
+}
+.setting-des {
   width: 30%;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .account-setting {
   font-size: 36px;
@@ -15,19 +31,37 @@
 }
 .setting-small-title {
   font-size: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: var(--gray-color);
+}
+.actions-settings {
+  display: flex;
 }
 .button-setting {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: start;
+  margin-right: 100px;
+}
+.line {
+  border-left: 1px solid var(--gray-color);
+  margin-right: 100px;
 }
 .button-setting Button {
   display: flex;
-  justify-content: space-between;
-  align-items: left;
+  align-items: center;
   width: 100%;
-  padding: 20px 100px;
+  padding: 15px 70px;
+  background-color: white;
+  color: var(--gray-color);
+  font-size: 30px;
+  gap: 30px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+.button-setting Button:hover {
+  background-color: var(--tw-gradient-to);
+  color: white;
+  -webkit-transition: 1s;
 }

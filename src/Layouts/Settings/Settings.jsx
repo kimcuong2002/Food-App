@@ -22,36 +22,39 @@ const Settings = () => {
   };
   return (
     <div className="setting-container">
-      <div className="setting-actions">
+      <div className="setting-des">
         <p className="account-setting">Account Settings</p>
         <p className="setting-small-title">
           Change your avata and account settings
         </p>
+      </div>
+      <div className="actions-settings">
         <div className="button-setting">
           <Button
             icon={<CgProfile />}
             name="Account"
-            onClick={(handleShow) => {
-              setShowAction("Account ");
+            onClick={() => {
+              setShowAction("Account");
             }}
           />
           <Button
             icon={<Si1Password />}
             name="Password"
-            onClick={(handleShow) => {
+            onClick={() => {
               setShowAction("Password");
             }}
           />
           <Button
             icon={<BiHelpCircle />}
             name="Help?"
-            onClick={(handleShow) => {
+            onClick={() => {
               setShowAction("Help");
             }}
           />
         </div>
+        <div className="line"></div>
+        <div className="setting-details">{handleShow()}</div>
       </div>
-      <div className="setting-details">{handleShow()}</div>
     </div>
   );
 };

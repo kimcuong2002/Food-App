@@ -11,6 +11,7 @@
   --red-light: rgb(248 113 113);
   --tw-gradient-from: #c084fc;
   --tw-gradient-to: #db2777;
+  --gray-blur: #9ca3af;
 }
 .app {
   display: flex;

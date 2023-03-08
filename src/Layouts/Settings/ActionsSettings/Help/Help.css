@@ -1,0 +1,35 @@
+.help-box__message {
+  margin: 40px 0;
+}
+.account-actions-setting {
+  width: 50%;
+}
+.help-box__message label {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--gray-blur);
+  display: block;
+  margin-bottom: 10px;
+}
+.help-box__message textarea {
+  width: 65%;
+  height: 100px;
+  padding: 10px;
+  border: var(--gray-blur) 1px solid;
+  border-radius: 10px;
+}
+.map {
+  width: 600px;
+  height: 450px;
+  margin: 0px 50px 0 30px;
+  border: none;
+}
+.map-local {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-blur);
+  padding: 10px;
+  font-weight: bold;
+}

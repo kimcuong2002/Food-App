@@ -1,0 +1,51 @@
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fff;
+  color: white;
+  border-radius: 4px;
+  border-radius: 20px;
+  background-color: var(--tw-gradient-to);
+}
+.account-settings {
+  display: flex;
+  margin-bottom: 30px;
+}
+.custom-file-upload:hover {
+  background-color: var(--pink-color);
+}
+.custom-file-upload::before {
+  font-family: FontAwesome;
+}
+.custom-file-upload:focus,
+.custom-file-upload:active {
+  outline: none;
+  box-shadow: none;
+}
+input[type="file"] {
+  display: none;
+}
+.avatar-choose img {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.avatar-preview {
+  width: 100%;
+  object-fit: cover;
+}
+.btn-save {
+  padding: 8px 30px;
+  border-radius: 10px;
+  background-color: var(--tw-gradient-to);
+  border: none;
+}
+.workwithlatop-animation {
+  margin: 0 50px;
+}

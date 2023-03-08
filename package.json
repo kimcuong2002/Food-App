@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "google-map-react": "^2.2.0",
     "lottie-react": "^2.4.0",
     "lottie-react-web": "^2.2.2",
     "lottie-web": "^5.10.2",
@@ -42,6 +43,8 @@
     ]
   },
   "devDependencies": {
-    "react-router-dom": "^6.8.2"
+    "file-loader": "^6.2.0",
+    "react-router-dom": "^6.8.2",
+    "url-loader": "^4.1.1"
   }
 }

@@ -4,6 +4,7 @@ import bannerlogin1 from "../../Assets/bannerlogin1.jpg";
 import logo from "../../Assets/logo.png";
 import Button from "../../Components/Button/Button";
 import { AiFillLock, AiOutlineArrowRight } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -39,10 +40,12 @@ const Login = () => {
           />
         </form>
         <p className="doyouhaveanaccount">Do you have an account</p>
-        <div className="signup">
-          <p className="sign-up-action">Sign Up</p>
-          <AiOutlineArrowRight />
-        </div>
+        <Link to="/register">
+          <div className="signup">
+            <p className="sign-up-action">Sign Up</p>
+            <AiOutlineArrowRight />
+          </div>
+        </Link>
       </div>
     </div>
   );
