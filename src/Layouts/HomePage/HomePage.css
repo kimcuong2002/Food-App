@@ -113,6 +113,12 @@
   grid-template-columns: auto;
   margin: 20px 0 10px;
 }
+.modal {
+  background-color: var(--gray-blur);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
 @media (min-width: 400px) {
   .nav-bar {
     width: 10%;

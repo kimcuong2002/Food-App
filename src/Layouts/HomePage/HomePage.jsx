@@ -99,8 +99,12 @@ const HomePage = () => {
           setOpenModal={setOpenModal}
           className="ordermenu"
         />
+        <Modal
+          open={openModal}
+          onClose={() => setOpenModal(false)}
+          className="modal"
+        />
       </div>
-      <Modal open={openModal} onClose={() => setOpenModal(false)} />
     </div>
   );
 };

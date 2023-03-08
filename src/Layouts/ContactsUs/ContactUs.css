@@ -11,6 +11,9 @@
 .dfstore-title {
   font-size: 96px;
   font-weight: 800;
+  background: -webkit-linear-gradient(#c084fc, #db2777);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .dfstore-feedback {
   width: 75%;

@@ -28,6 +28,9 @@
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
+  background: -webkit-linear-gradient(#c084fc, #db2777);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .setting-small-title {
   font-size: 20px;
